@@ -1,0 +1,1397 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>films</title>
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="/Users/prajaychaudhary/Desktop/Film Festival /images/logo.svg" type="image/svg+xml" />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/25f4be8fa1.js" crossorigin="anonymous"></script>
+</head>
+
+<body id="#top">
+    <div class="bg-dark">
+        <div class="container">
+            <div class="row">
+                <nav class="col navbar navbar-expand-lg navbar-dark">
+                    <a class="navbar-brand" href="index.html"><img src="logo.png" height="60px" /></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon text-white"></span>
+            </button>
+                    <div id="navbarContent" class="collapse navbar-collapse">
+                        <ul class="navbar-nav">
+                            <li class="nav-item  pl-5 pr-3">
+                                <a class="nav-link" href="index.html">HOME</a>
+                            </li>
+                            <li class="nav-item px-5 active">
+                                <a class="nav-link" href="films.html">FILMS</a>
+                            </li>
+                            <li class="nav-item px-5">
+                                <a class="nav-link" href="faq.html">FAQ</a>
+                            </li>
+                            <li class="nav-item  px-5">
+                                <a href="register.html"><button class="btn btn-warning rounded-pill  p-2 " type="submit">
+                    REGISTER NOW
+                  </button></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!---movies change style-->
+    <div class="container mb-5">
+        <h3 class="display-4 text-white text-uppercase text-center font-weight-bold mb-2 font-weight-bolder">
+            films
+        </h3>
+        <div class="row">
+            <div class="col-6 col-md-4 col-lg-3 movies-con">
+                <div class="card border-info shadow-sm mt-1 mb-4 change-sty">
+                    <img src="/Users/prajaychaudhary/Desktop/Film Festival /images/posters/movie1.jpeg" alt="Fortress" class="card-image-top" />
+                    <div class="card-body bg-dark text-center">
+                        <!-- Button to Open the Modal -->
+                        <button type="button" class="btn btn-warning rounded-pill" data-toggle="modal" data-target="#myModal1">
+                                   See Details
+                                  </button>
+                    </div>
+
+                    <!-- The Modal for movie 1 -->
+
+                    <div class="modal fade" id="myModal1">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Film Details</h4>
+                                    <button type="button" class="close text-danger" data-dismiss="modal">&times;</button>
+                                </div>
+
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                    <div class="container">
+                                        <div class="row mb-5">
+                                            <div class="col-lg-4  mb-md-0 text-center">
+
+                                                <img class="h-75 w-75 rounded" src="/Users/prajaychaudhary/Desktop/Film Festival /images/posters/movie1.jpeg"> </div>
+                                            <div class="col m-0">
+                                                <h4 class="text-warning">New Movie</h4>
+                                                <h1 class=" text-uppercase text-info ">fortress</h1>
+                                                <button class="font-weight-bold p-1 m-1  bg-secondary text-white" type="button">PG 13</button>
+                                                <button class="font-weight-bold p-1 m-1  bg-dark text-white" type="button">HD</button>
+                                                </h3> Action, Adventure, Science<br>
+
+
+                                                <span><i class="fa-solid fa-calendar-days fa-2x mt-4 mr-2 mb-4"></i>2022</span>
+                                                <span><i class="fa-solid fa-hourglass-empty fa-2x mt-4 mr-2 mb-4"></i>116 min</span>
+                                                <p class="text-dark">
+                                                    A group of criminals led by Robert's former nemesis - Balzaty who hellbent on revenge, forces a retired CIA Agent and his estranged son into a high-tech bunker. Will the thick walls and defenses be powerful enough against Balzary's forces.
+                                                </p>
+
+                                                <div class="container  bg-dark">
+                                                    <div class="row ">
+                                                        <div class="col-6">
+
+                                                            <!-- movie 1 trailer modal -->
+
+                                                            <!-- Button to Open the Modal -->
+                                                            <button type="button" class="btn btn-outline-warning rounded-pill my-5 ml-2 pl-sm-1" data-toggle="modal" data-target="#myModaltrailer1"><i class="fa-solid fa-circle-play fa-2x  "></i>Watch Trailer</button>
+
+
+                                                            <!-- The Modal -->
+                                                            <div class="modal fade" id="myModaltrailer1">
+                                                                <div class="modal-dialog modal-xl">
+                                                                    <div class="modal-content">
+
+                                                                        <!-- Modal Header -->
+                                                                        <div class="modal-header">
+                                                                            <h4 class="modal-title text-center ">Fortress Trailer</h4>
+                                                                            <button type="button" class="close text-danger" data-dismiss="modal">&times;</button>
+                                                                        </div>
+
+                                                                        <!-- Modal body -->
+                                                                        <div class="modal-body">
+                                                                            <!-- 21:9 aspect ratio -->
+                                                                            <div class="embed-responsive embed-responsive-16by9">
+                                                                                <iframe class="embed-responsive-item" src="/Users/prajaychaudhary/Desktop/Film Festival /video/FORTRESS Trailer (2021).mp4"></iframe>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <!-- Modal footer -->
+                                                                        <div class="modal-footer">
+                                                                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+
+
+
+
+
+
+                                                        </div>
+                                                        <div class="col-6 font-weight-bold  title-underline text-center my-5">
+                                                            <p class="text-info mb-0">Show time</p>
+                                                            <p class="text-white ">August 7 at 9pm</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <h3 class=" font-weight-bolder text-center">Movie Top Cast</h3>
+                                                <div class="title-underline-top-cast  bg-info "></div>
+                                            </div>
+                                        </div>
+                                        <div class="row m-4">
+                                            <div class="col-6 col-sm-6 col-lg-3 my-4">
+                                                <img class="h-100 w-100 rounded" src="/Users/prajaychaudhary/Desktop/Film Festival /images/cast/movie1/cast1.jpeg" alt="">
+                                                <p class=" font-weight-light text-center mb-3">
+                                                    Kelly Greyson
+                                                </p>
+
+                                            </div>
+                                            <div class="col-6  col-sm-6 col-lg-3  my-4"><img class="h-100 w-100 rounded" src="/Users/prajaychaudhary/Desktop/Film Festival /images/cast/movie1/cast2.jpeg" alt="">
+                                                <p class=" font-weight-light text-center mb-3">
+                                                    Chad Michael
+                                                </p>
+                                            </div>
+                                            <div class="col-6  col-sm-6 col-lg-3  my-4"><img class="h-100 w-100 rounded" src="/Users/prajaychaudhary/Desktop/Film Festival /images/cast/movie1/cast3.jpg" alt="">
+                                                <p class=" font-weight-light text-center mb-3">
+                                                    Bruce Willis
+                                                </p>
+                                            </div>
+                                            <div class="col-6  col-sm-6 col-lg-3  my-4"><img class="h-100 w-100 rounded" src="/Users/prajaychaudhary/Desktop/Film Festival /images/cast/movie1/cast4.jpg" alt="">
+                                                <p class=" font-weight-light text-center mb-3">
+                                                    Shannen Doherty
+                                                </p>
+                                            </div>
+
+
+
+
+                                        </div>
+                                        <div class="row">
+                                            <div class="col text-center">
+                                                <a href="register.html" class="btn btn-outline-success text-center rounded-pill">Register here</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary bg-danger" data-dismiss="modal">Close</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+            <!-- movie 2 -->
+            <div class="col-6 col-md-4 col-lg-3 movies-con">
+                <div class="card border-info shadow-sm mt-1 mb-4 change-sty">
+                    <img src="/Users/prajaychaudhary/Desktop/Film Festival /images/posters/Movie2.jpg" alt=" Hitman's Wife'S Bodyguard " class="card-image-top" />
+                    <div class="card-body bg-dark text-center">
+                        <!-- Button to Open the Modal -->
+                        <button type="button" class="btn btn-warning rounded-pill" data-toggle="modal" data-target="#myModal2">
+                                   See Details
+                                  </button>
+                    </div>
+
+                    <!-- The Modal for movie 2 -->
+
+                    <div class="modal fade" id="myModal2">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Film Details</h4>
+                                    <button type="button" class="close text-danger" data-dismiss="modal">&times;</button>
+                                </div>
+
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                    <div class="container">
+                                        <div class="row mb-5">
+                                            <div class="col-lg-4  mb-md-0 text-center">
+
+                                                <img class="h-75 w-75 rounded" src="/Users/prajaychaudhary/Desktop/Film Festival /images/posters/Movie2.jpg"> </div>
+                                            <div class="col m-0">
+                                                <h4 class="text-warning">New Movie</h4>
+                                                <h1 class=" text-uppercase text-info ">HITMAN'S WIFE'S BODYGUARD</h1>
+                                                <button class="font-weight-bold p-1 m-1  bg-secondary text-white" type="button">PG 14</button>
+                                                <button class="font-weight-bold p-1 m-1  bg-dark text-white" type="button">HD</button>
+                                                </h3> Action, Comedy,, Crime<br>
+
+
+                                                <span><i class="fa-solid fa-calendar-days fa-2x mt-4 mr-2 mb-4"></i>2021</span>
+                                                <span><i class="fa-solid fa-hourglass-empty fa-2x mt-4 mr-2 mb-4"></i>134 min</span>
+                                                <p class="text-dark">
+                                                    The bodyguard, Michael Bryce, continues his friendship with assassin, Darius Kincaid, as they try to save Darius' wife Sonia.
+                                                </p>
+
+                                                <div class="container  bg-dark">
+                                                    <div class="row ">
+                                                        <div class="col-6">
+
+                                                            <!-- movie 1 trailer modal -->
+
+                                                            <!-- Button to Open the Modal -->
+                                                            <button type="button" class="btn btn-outline-warning rounded-pill my-5 ml-2 pl-sm-1" data-toggle="modal" data-target="#myModaltrailer2"><i class="fa-solid fa-circle-play fa-2x "></i>Watch Trailer</button>
+
+
+                                                            <!-- The Modal -->
+                                                            <div class="modal fade" id="myModaltrailer2">
+                                                                <div class="modal-dialog modal-xl">
+                                                                    <div class="modal-content">
+
+                                                                        <!-- Modal Header -->
+                                                                        <div class="modal-header">
+                                                                            <h4 class="modal-title text-center ">Hitman's Wife'S Bodyguard Trailer</h4>
+                                                                            <button type="button" class="close text-danger" data-dismiss="modal">&times;</button>
+                                                                        </div>
+
+                                                                        <!-- Modal body -->
+                                                                        <div class="modal-body">
+                                                                            <!-- 21:9 aspect ratio -->
+                                                                            <div class="embed-responsive embed-responsive-16by9">
+                                                                                <iframe class="embed-responsive-item" src="/Users/prajaychaudhary/Desktop/Film Festival /video/Hitmanâs Wifeâs Bodyguard (2021 Movie) Trailer â Ryan Reynolds, Samuel L. Jackson, Salma Hayek.mp4"></iframe>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <!-- Modal footer -->
+                                                                        <div class="modal-footer">
+                                                                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+
+
+                                                        </div>
+                                                        <div class="col-6 font-weight-bold  title-underline text-center my-5">
+                                                            <p class="text-info mb-0">Show time</p>
+                                                            <p class="text-white ">August 6 at 6pm</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!--movie cast-->
+                                        <div class="row">
+                                            <div class="col">
+                                                <h3 class=" font-weight-bolder text-center">Movie Top Cast</h3>
+                                                <div class="title-underline-top-cast  bg-info "></div>
+                                            </div>
+                                        </div>
+                                        <div class="row m-4">
+                                            <div class="col-6 col-sm-6 col-lg-3 my-4">
+                                                <img class="h-100 w-100 rounded" src="/Users/prajaychaudhary/Desktop/Film Festival /images/cast/movie2/cast1.jpg" alt="Salma Hayek">
+                                                <p class=" font-weight-light text-center mb-3">
+                                                    Salma Hayek
+                                                </p>
+
+                                            </div>
+                                            <div class="col-6  col-sm-6 col-lg-3  my-4"><img class="h-100 w-100 rounded" src="/Users/prajaychaudhary/Desktop/Film Festival /images/cast/movie2/cast2.jpg" alt="Ryan Reynolds">
+                                                <p class=" font-weight-light text-center mb-3">
+                                                    Ryan Reynolds
+                                                </p>
+                                            </div>
+                                            <div class="col-6  col-sm-6 col-lg-3  my-4"><img class="h-100 w-100 rounded" src="/Users/prajaychaudhary/Desktop/Film Festival /images/cast/movie3/cast3.jpg" alt=" Morgan Freeman">
+                                                <p class=" font-weight-light text-center mb-3">
+                                                    Morgan Freeman
+                                                </p>
+                                            </div>
+                                            <div class="col-6  col-sm-6 col-lg-3  my-4"><img class="h-100 w-100 rounded" src="/Users/prajaychaudhary/Desktop/Film Festival /images/cast/movie2/cast4.jpg" alt=" Alice McMillan">
+                                                <p class=" font-weight-light text-center mb-3">
+                                                    Alice McMillan
+                                                </p>
+                                            </div>
+
+
+
+
+                                        </div>
+                                        <div class="row">
+                                            <div class="col text-center">
+                                                <a href="register.html" class="btn btn-outline-success text-center rounded-pill">Register here</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary bg-danger" data-dismiss="modal">Close</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+            <!-- movie 3 -->
+            <div class="col-6 col-md-4 col-lg-3 movies-con">
+                <div class="card border-info shadow-sm mt-1 mb-4 change-sty">
+                    <img src="/Users/prajaychaudhary/Desktop/Film Festival /images/posters/movie-3.png " alt="The Adam Project " class="card-img-top" />
+                    <div class="card-body bg-dark text-center">
+                        <!-- Button to Open the Modal -->
+                        <button type="button" class="btn btn-warning rounded-pill" data-toggle="modal" data-target="#myModal3">
+                                   See Details
+                                  </button>
+                    </div>
+
+                    <!-- The Modal for movie 3 -->
+
+                    <div class="modal fade" id="myModal3">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Film Details</h4>
+                                    <button type="button" class="close text-danger" data-dismiss="modal">&times;</button>
+                                </div>
+
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                    <div class="container">
+                                        <div class="row mb-5">
+                                            <div class="col-lg-4  mb-md-0 text-center">
+
+                                                <img class="h-75 w-75 rounded" src="/Users/prajaychaudhary/Desktop/Film Festival /images/posters/movie-3.png"> </div>
+                                            <div class="col m-0">
+                                                <h4 class="text-warning">New Movie</h4>
+                                                <h1 class=" text-uppercase text-info ">The Adam Project</h1>
+                                                <button class="font-weight-bold p-1 m-1  bg-secondary text-white" type="button">PG 9</button>
+                                                <button class="font-weight-bold p-1 m-1  bg-dark text-white" type="button">HD</button>
+                                                </h3> Action, Comedy,, Adventure<br>
+
+
+                                                <span><i class="fa-solid fa-calendar-days fa-2x mt-4 mr-2 mb-4"></i>2022</span>
+                                                <span><i class="fa-solid fa-hourglass-empty fa-2x mt-4 mr-2 mb-4"></i>146 min</span>
+                                                <p class="text-dark">
+                                                    After accidentally crash-landing in 2022, time-traveling fighter pilot Adam Reed teams up with his 12-year-old self on a mission to save the future.
+                                                </p>
+
+                                                <div class="container  bg-dark">
+                                                    <div class="row ">
+                                                        <div class="col-6">
+
+                                                            <!-- movie 3 trailer modal -->
+
+                                                            <!-- Button to Open the Modal -->
+                                                            <button type="button" class="btn btn-outline-warning rounded-pill my-5 ml-2 pl-sm-1" data-toggle="modal" data-target="#myModaltrailer3"><i class="fa-solid fa-circle-play fa-2x "></i>Watch Trailer</button>
+
+
+                                                            <!-- The Modal -->
+                                                            <div class="modal fade" id="myModaltrailer3">
+                                                                <div class="modal-dialog modal-xl">
+                                                                    <div class="modal-content">
+
+                                                                        <!-- Modal Header -->
+                                                                        <div class="modal-header">
+                                                                            <h4 class="modal-title text-center ">The Adam Project Trailer</h4>
+                                                                            <button type="button" class="close text-danger" data-dismiss="modal">&times;</button>
+                                                                        </div>
+
+                                                                        <!-- Modal body -->
+                                                                        <div class="modal-body">
+                                                                            <!-- 21:9 aspect ratio -->
+                                                                            <div class="embed-responsive embed-responsive-16by9">
+                                                                                <iframe class="embed-responsive-item" src="/Users/prajaychaudhary/Desktop/Film Festival /video/The Adam Project | Official Trailer | Netflix.mp4"></iframe>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <!-- Modal footer -->
+                                                                        <div class="modal-footer">
+                                                                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+
+
+                                                        </div>
+                                                        <div class="col-6 font-weight-bold  title-underline text-center my-5">
+                                                            <p class="text-info mb-0">Show time</p>
+                                                            <p class="text-white ">August 6 at 9pm</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!--movie cast-->
+                                        <div class="row">
+                                            <div class="col">
+                                                <h3 class=" font-weight-bolder text-center">Movie Top Cast</h3>
+                                                <div class="title-underline-top-cast  bg-info "></div>
+                                            </div>
+                                        </div>
+                                        <div class="row m-4">
+                                            <div class="col-6 col-sm-6 col-lg-3 my-4">
+                                                <img class="h-100 w-100 rounded" src="/Users/prajaychaudhary/Desktop/Film Festival /images/cast/movie3/cast1.jpg" alt="Ryan Reynolds">
+                                                <p class=" font-weight-light text-center mb-3">
+                                                    Ryan Reynolds
+                                                </p>
+
+                                            </div>
+                                            <div class="col-6  col-sm-6 col-lg-3  my-4"><img class="h-100 w-100 rounded" src="/Users/prajaychaudhary/Desktop/Film Festival /images/cast/movie3/cast2.jpg" alt="Walker Scobell">
+                                                <p class=" font-weight-light text-center mb-3">
+                                                    Walker Scobell
+                                                </p>
+                                            </div>
+                                            <div class="col-6  col-sm-6 col-lg-3  my-4"><img class="h-100 w-100 rounded" src="/Users/prajaychaudhary/Desktop/Film Festival /images/cast/movie3/cast3.jpg" alt=" Jennifer Garner">
+                                                <p class=" font-weight-light text-center mb-3">
+                                                    Jennifer Garner
+                                                </p>
+                                            </div>
+                                            <div class="col-6  col-sm-6 col-lg-3  my-4"><img class="h-100 w-100 rounded" src="/Users/prajaychaudhary/Desktop/Film Festival /images/cast/movie3/cast4.jpg" alt=" Zoe Saldaña">
+                                                <p class=" font-weight-light text-center mb-3">
+                                                    Zoe Saldaña
+                                                </p>
+                                            </div>
+
+
+
+
+                                        </div>
+                                        <div class="row">
+                                            <div class="col text-center">
+                                                <a href="register.html" class="btn btn-outline-success text-center rounded-pill">Register here</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary bg-danger" data-dismiss="modal">Close</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+
+            <!-- movie 4 -->
+            <div class="col-6 col-md-4 col-lg-3 movies-con">
+                <div class="card border-info shadow-sm mt-1 mb-4 change-sty">
+                    <img src="/Users/prajaychaudhary/Desktop/Film Festival /images/posters/movie4.jpg " alt="Doctor Strange  " class="card-img-top" />
+                    <div class="card-body bg-dark text-center">
+                        <!-- Button to Open the Modal -->
+                        <button type="button" class="btn btn-warning rounded-pill" data-toggle="modal" data-target="#myModal4">
+                                   See Details
+                                  </button>
+                    </div>
+
+                    <!-- The Modal for movie 3 -->
+
+                    <div class="modal fade" id="myModal4">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Film Details</h4>
+                                    <button type="button" class="close text-danger" data-dismiss="modal">&times;</button>
+                                </div>
+
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                    <div class="container">
+                                        <div class="row mb-5">
+                                            <div class="col-lg-4  mb-md-0 text-center">
+
+                                                <img class="h-75 w-75 rounded" src="/Users/prajaychaudhary/Desktop/Film Festival /images/moviedetails/movie4.jpg"> </div>
+                                            <div class="col m-0">
+                                                <h4 class="text-warning">New Movie</h4>
+                                                <h1 class=" text-uppercase text-info ">Doctor Strange in the Multiverse of Madness</h1>
+                                                <button class="font-weight-bold p-1 m-1  bg-secondary text-white" type="button">PG 9</button>
+                                                <button class="font-weight-bold p-1 m-1  bg-dark text-white" type="button">HD</button>
+                                                </h3> Action, Fantasy,, Adventure<br>
+
+
+                                                <span><i class="fa-solid fa-calendar-days fa-2x mt-4 mr-2 mb-4"></i>2022</span>
+                                                <span><i class="fa-solid fa-hourglass-empty fa-2x mt-4 mr-2 mb-4"></i>126 min</span>
+                                                <p class="text-dark">
+                                                    Strange has become the master of metaphysical arts and is now able to alter realities in the multiverse.
+                                                </p>
+
+                                                <div class="container  bg-dark">
+                                                    <div class="row ">
+                                                        <div class="col-6">
+
+                                                            <!-- movie 4 trailer modal -->
+
+                                                            <!-- Button to Open the Modal -->
+                                                            <button type="button" class="btn btn-outline-warning rounded-pill my-5 ml-2 pl-sm-1" data-toggle="modal" data-target="#myModaltrailer4"><i class="fa-solid fa-circle-play fa-2x "></i>Watch Trailer</button>
+
+
+                                                            <!-- The Modal -->
+                                                            <div class="modal fade" id="myModaltrailer4">
+                                                                <div class="modal-dialog modal-xl">
+                                                                    <div class="modal-content">
+
+                                                                        <!-- Modal Header -->
+                                                                        <div class="modal-header">
+                                                                            <h4 class="modal-title text-center ">Doctor Strange in the Multiverse of Madness Trailer</h4>
+                                                                            <button type="button" class="close text-danger" data-dismiss="modal">&times;</button>
+                                                                        </div>
+
+                                                                        <!-- Modal body -->
+                                                                        <div class="modal-body">
+                                                                            <!-- 21:9 aspect ratio -->
+                                                                            <div class="embed-responsive embed-responsive-16by9">
+                                                                                <iframe class="embed-responsive-item" src="/Users/prajaychaudhary/Desktop/Film Festival /video/Marvel Studios' Doctor Strange in the Multiverse of Madness | Official Trailer.mp4"></iframe>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <!-- Modal footer -->
+                                                                        <div class="modal-footer">
+                                                                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+
+
+                                                        </div>
+                                                        <div class="col-6 font-weight-bold  title-underline text-center my-5">
+                                                            <p class="text-info mb-0">Show time</p>
+                                                            <p class="text-white ">August 5 at 9pm</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!--movie cast-->
+                                        <div class="row">
+                                            <div class="col">
+                                                <h3 class=" font-weight-bolder text-center">Movie Top Cast</h3>
+                                                <div class="title-underline-top-cast  bg-info "></div>
+                                            </div>
+                                        </div>
+                                        <div class="row m-4">
+                                            <div class="col-6 col-sm-6 col-lg-3 my-4 ">
+                                                <img class="h-100 w-100 rounded" src="/Users/prajaychaudhary/Desktop/Film Festival /images/cast/movie4/cast1.jpg" alt="Elizabeth Olsen">
+                                                <p class=" font-weight-light text-center mb-3">
+                                                    Elizabeth Olsen
+                                                </p>
+
+                                            </div>
+                                            <div class="col-6  col-sm-6 col-lg-3  my-4"><img class="h-100 w-100 rounded" src="/Users/prajaychaudhary/Desktop/Film Festival /images/cast/movie4/cast2.jpg" alt="Xochitl Gomez">
+                                                <p class=" font-weight-light text-center mb-3">
+                                                    Xochitl Gomez
+                                                </p>
+                                            </div>
+                                            <div class="col-6  col-sm-6 col-lg-3  my-4"><img class="h-100 w-100 rounded" src="/Users/prajaychaudhary/Desktop/Film Festival /images/cast/movie4/cast3.jpg" alt=" Benedict Cumberbatch">
+                                                <p class=" font-weight-light text-center mb-3">
+                                                    Benedict Cumberbatch
+                                                </p>
+                                            </div>
+                                            <div class="col-6  col-sm-6 col-lg-3  my-4"><img class="h-100 w-100 rounded" src="/Users/prajaychaudhary/Desktop/Film Festival /images/cast/movie4/cast4.jpg" alt=" Bruce Campbell">
+                                                <p class=" font-weight-light text-center mb-3">
+                                                    Bruce Campbell
+                                                </p>
+                                            </div>
+
+
+
+                                        </div>
+                                        <div class="row">
+                                            <div class="col text-center">
+                                                <a href="register.html" class="btn btn-outline-success text-center rounded-pill">Register here</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary bg-danger" data-dismiss="modal">Close</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+            <!-- movie 5 -->
+            <div class="col-6 col-md-4 col-lg-3 movies-con">
+                <div class="card border-info shadow-sm mt-1 mb-4 change-sty">
+                    <img src="/Users/prajaychaudhary/Desktop/Film Festival /images/posters/movie-5.png " alt="Batman " class="card-img-top" />
+                    <div class="card-body bg-dark text-center">
+                        <!-- Button to Open the Modal -->
+                        <button type="button" class="btn btn-warning rounded-pill" data-toggle="modal" data-target="#myModal5">
+                                   See Details
+                                  </button>
+                    </div>
+
+                    <!-- The Modal for movie 3 -->
+
+                    <div class="modal fade" id="myModal5">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Film Details</h4>
+                                    <button type="button" class="close text-danger" data-dismiss="modal">&times;</button>
+                                </div>
+
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                    <div class="container">
+                                        <div class="row mb-5">
+                                            <div class="col-lg-4  mb-md-0 text-center">
+
+                                                <img class="h-75 w-75 rounded" src="/Users/prajaychaudhary/Desktop/Film Festival /images/moviedetails/movie5.jpg"> </div>
+                                            <div class="col m-0">
+                                                <h4 class="text-warning">New Movie</h4>
+                                                <h1 class=" text-uppercase text-info ">The Batman</h1>
+                                                <button class="font-weight-bold p-1 m-1  bg-secondary text-white" type="button">PG 6</button>
+                                                <button class="font-weight-bold p-1 m-1  bg-dark text-white" type="button">HD</button>
+                                                </h3> Action, Crime, Drama<br>
+
+
+                                                <span><i class="fa-solid fa-calendar-days fa-2x mt-4 mr-2 mb-4"></i>2022</span>
+                                                <span><i class="fa-solid fa-hourglass-empty fa-2x mt-4 mr-2 mb-4"></i>2h 56m</span>
+                                                <p class="text-dark">
+                                                    When a sadistic serial killer begins murdering key political figures in Gotham, Batman is forced to investigate the city's hidden corruption and question his family's involvement.
+                                                </p>
+
+                                                <div class="container  bg-dark">
+                                                    <div class="row ">
+                                                        <div class="col-6">
+
+                                                            <!-- movie 5 trailer modal -->
+
+                                                            <!-- Button to Open the Modal -->
+                                                            <button type="button" class="btn btn-outline-warning rounded-pill my-5 ml-2 pl-sm-1" data-toggle="modal" data-target="#myModaltrailer5"><i class="fa-solid fa-circle-play fa-2x "></i>Watch Trailer</button>
+
+
+                                                            <!-- The Modal -->
+                                                            <div class="modal fade" id="myModaltrailer5">
+                                                                <div class="modal-dialog modal-xl">
+                                                                    <div class="modal-content">
+
+                                                                        <!-- Modal Header -->
+                                                                        <div class="modal-header">
+                                                                            <h4 class="modal-title text-center ">The Batman Trailer</h4>
+                                                                            <button type="button" class="close text-danger" data-dismiss="modal">&times;</button>
+                                                                        </div>
+
+                                                                        <!-- Modal body -->
+                                                                        <div class="modal-body">
+                                                                            <!-- 21:9 aspect ratio -->
+                                                                            <div class="embed-responsive embed-responsive-16by9">
+                                                                                <iframe class="embed-responsive-item" src="/Users/prajaychaudhary/Desktop/Film Festival /video/THE BATMAN â Main Trailer.mp4"></iframe>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <!-- Modal footer -->
+                                                                        <div class="modal-footer">
+                                                                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+
+
+                                                        </div>
+                                                        <div class="col-6 font-weight-bold  title-underline text-center my-5">
+                                                            <p class="text-info mb-0">Show time</p>
+                                                            <p class="text-white ">August 8 at 9pm</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!--movie cast-->
+                                        <div class="row">
+                                            <div class="col">
+                                                <h3 class=" font-weight-bolder text-center">Movie Top Cast</h3>
+                                                <div class="title-underline-top-cast  bg-info "></div>
+                                            </div>
+                                        </div>
+                                        <div class="row m-4">
+                                            <div class="col-6 col-sm-6 col-lg-3 my-4">
+                                                <img class="h-100 w-100 rounded" src="/Users/prajaychaudhary/Desktop/Film Festival /images/cast/movie5/cast1.jpg" alt="Robert Pattinson">
+                                                <p class=" font-weight-light text-center mb-3">
+                                                    Robert Pattinson
+                                                </p>
+
+                                            </div>
+                                            <div class="col-6  col-sm-6 col-lg-3  my-4"><img class="h-100 w-100 rounded" src="/Users/prajaychaudhary/Desktop/Film Festival /images/cast/movie5/cast2.jpg" alt="Zoë Kravitz">
+                                                <p class=" font-weight-light text-center mb-3">
+                                                    Zoë Kravitz
+                                                </p>
+                                            </div>
+                                            <div class="col-6  col-sm-6 col-lg-3  my-4"><img class="h-100 w-100 rounded" src="/Users/prajaychaudhary/Desktop/Film Festival /images/cast/movie5/cast3.jpg" alt=" Paul Danoh">
+                                                <p class=" font-weight-light text-center mb-3">
+                                                    Paul Dano
+                                                </p>
+                                            </div>
+                                            <div class="col-6  col-sm-6 col-lg-3  my-4"><img class="h-100 w-100 rounded" src="/Users/prajaychaudhary/Desktop/Film Festival /images/cast/movie5/cast4.jpg" alt=" Colin Farrell">
+                                                <p class=" font-weight-light text-center mb-3">
+                                                    Bruce Campbell
+                                                </p>
+                                            </div>
+
+
+
+                                        </div>
+                                        <div class="row">
+                                            <div class="col text-center">
+                                                <a href="register.html" class="btn btn-outline-success text-center rounded-pill">Register here</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary bg-danger" data-dismiss="modal">Close</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+            <!-- movie 6 -->
+            <div class="col-6 col-md-4 col-lg-3 movies-con">
+                <div class="card border-info shadow-sm mt-1 mb-4 change-sty">
+                    <img src="/Users/prajaychaudhary/Desktop/Film Festival /images/posters/movie6.jpg " alt="Batman " class="card-img-top" />
+                    <div class="card-body bg-dark text-center">
+                        <!-- Button to Open the Modal -->
+                        <button type="button" class="btn btn-warning rounded-pill" data-toggle="modal" data-target="#myModal6">
+                                   See Details
+                                  </button>
+                    </div>
+
+                    <!-- The Modal for movie 6 -->
+
+                    <div class="modal fade" id="myModal6">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Film Details</h4>
+                                    <button type="button" class="close text-danger" data-dismiss="modal">&times;</button>
+                                </div>
+
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                    <div class="container">
+                                        <div class="row mb-5">
+                                            <div class="col-lg-4  mb-md-0 text-center">
+
+                                                <img class="h-75 w-75 rounded" src="/Users/prajaychaudhary/Desktop/Film Festival /images/moviedetails/movie6.jpg"> </div>
+                                            <div class="col m-0">
+                                                <h4 class="text-warning">Movie</h4>
+                                                <h1 class=" text-uppercase text-info ">The Walk</h1>
+                                                <button class="font-weight-bold p-1 m-1  bg-secondary text-white" type="button">PG 6</button>
+                                                <button class="font-weight-bold p-1 m-1  bg-dark text-white" type="button">HD</button>
+                                                </h3> Adventure, Biography, Drama<br>
+
+
+                                                <span><i class="fa-solid fa-calendar-days fa-2x mt-4 mr-2 mb-4"></i>2015</span>
+                                                <span><i class="fa-solid fa-hourglass-empty fa-2x mt-4 mr-2 mb-4"></i>123 Min</span>
+                                                <p class="text-dark">
+                                                    In 1974, high-wire artist Philippe Petit recruits a team of people to help him realize his dream: to walk the immense void between the World Trade Center towers.
+                                                </p>
+
+                                                <div class="container  bg-dark">
+                                                    <div class="row ">
+                                                        <div class="col-6">
+
+                                                            <!-- movie 6 trailer modal -->
+
+                                                            <!-- Button to Open the Modal -->
+                                                            <button type="button" class="btn btn-outline-warning rounded-pill my-5 ml-2 pl-sm-1" data-toggle="modal" data-target="#myModaltrailer6"><i class="fa-solid fa-circle-play fa-2x "></i>Watch Trailer</button>
+
+
+                                                            <!-- The Modal -->
+                                                            <div class="modal fade" id="myModaltrailer6">
+                                                                <div class="modal-dialog modal-xl">
+                                                                    <div class="modal-content">
+
+                                                                        <!-- Modal Header -->
+                                                                        <div class="modal-header">
+                                                                            <h4 class="modal-title text-center ">The Walk Trailer</h4>
+                                                                            <button type="button" class="close text-danger" data-dismiss="modal">&times;</button>
+                                                                        </div>
+
+                                                                        <!-- Modal body -->
+                                                                        <div class="modal-body">
+                                                                            <!-- 21:9 aspect ratio -->
+                                                                            <div class="embed-responsive embed-responsive-16by9">
+                                                                                <iframe class="embed-responsive-item" src="/Users/prajaychaudhary/Desktop/Film Festival /video/THE WALK - Official IMAX Trailer.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <!-- Modal footer -->
+                                                                        <div class="modal-footer">
+                                                                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+
+
+                                                        </div>
+                                                        <div class="col-6 font-weight-bold  title-underline text-center my-5">
+                                                            <p class="text-info mb-0">Show time</p>
+                                                            <p class="text-white ">August 8 at 9pm</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!--movie cast-->
+                                        <div class="row">
+                                            <div class="col">
+                                                <h3 class=" font-weight-bolder text-center">Movie Top Cast</h3>
+                                                <div class="title-underline-top-cast  bg-info "></div>
+                                            </div>
+                                        </div>
+                                        <div class="row m-4">
+                                            <div class="col-6 col-sm-6 col-lg-3 my-4">
+                                                <img class="h-100 w-100 rounded" src="/Users/prajaychaudhary/Desktop/Film Festival /images/cast/movie6/cast1.jpg" alt="Joseph Gordon">
+                                                <p class=" font-weight-light text-center mb-3">
+                                                    Joseph Gordon
+                                                </p>
+
+                                            </div>
+                                            <div class="col-6  col-sm-6 col-lg-3  my-4"><img class="h-100 w-100 rounded" src="/Users/prajaychaudhary/Desktop/Film Festival /images/cast/movie6/cast2.jpg" alt="Ben Kingsley">
+                                                <p class=" font-weight-light text-center mb-3">
+                                                    Ben Kingsley
+                                                </p>
+                                            </div>
+                                            <div class="col-6  col-sm-6 col-lg-3  my-4"><img class="h-100 w-100 rounded" src="/Users/prajaychaudhary/Desktop/Film Festival /images/cast/movie6/cast3.jpg" alt=" James Badge Dale">
+                                                <p class=" font-weight-light text-center mb-3">
+                                                    James Badge Dale
+                                                </p>
+                                            </div>
+                                            <div class="col-6  col-sm-6 col-lg-3  my-4"><img class="h-100 w-100 rounded" src="/Users/prajaychaudhary/Desktop/Film Festival /images/cast/movie6/cast4.jpg" alt=" Colin Farrell">
+                                                <p class=" font-weight-light text-center mb-3">
+                                                    Charlotte LeBon
+                                                </p>
+                                            </div>
+
+
+
+
+                                        </div>
+                                        <div class="row">
+                                            <div class="col text-center">
+                                                <a href="register.html" class="btn btn-outline-success text-center rounded-pill">Register here</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary bg-danger" data-dismiss="modal">Close</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+            <!-- movie 7 -->
+            <div class="col-6 col-md-4 col-lg-3 movies-con mx-auto mr-sm-0">
+                <div class="card border-info shadow-sm mt-1 mb-4 change-sty ">
+                    <img src="/Users/prajaychaudhary/Desktop/Film Festival /images/posters/movie7.jpg " alt="The Revenant " class="card-img-top " />
+                    <div class="card-body bg-dark text-center">
+                        <!-- Button to Open the Modal -->
+                        <button type="button" class="btn btn-warning rounded-pill" data-toggle="modal" data-target="#myModal7">
+                                   See Details
+                                  </button>
+                    </div>
+
+                    <!-- The Modal for movie 7 -->
+
+                    <div class="modal fade" id="myModal7">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Film Details</h4>
+                                    <button type="button" class="close text-danger" data-dismiss="modal">&times;</button>
+                                </div>
+
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                    <div class="container">
+                                        <div class="row mb-5">
+                                            <div class="col-lg-4  mb-md-0 text-center">
+
+                                                <img class="h-75 w-75 rounded" src="/Users/prajaychaudhary/Desktop/Film Festival /images/moviedetails/movie7.jpg"> </div>
+                                            <div class="col m-0">
+                                                <h4 class="text-warning">Movie</h4>
+                                                <h1 class=" text-uppercase text-info ">The Revenant</h1>
+                                                <button class="font-weight-bold p-1 m-1  bg-secondary text-white" type="button">PG 20</button>
+                                                <button class="font-weight-bold p-1 m-1  bg-dark text-white" type="button">HD</button>
+                                                </h3> Adventure, Action, Drama<br>
+
+
+                                                <span><i class="fa-solid fa-calendar-days fa-2x mt-4 mr-2 mb-4"></i>2015</span>
+                                                <span><i class="fa-solid fa-hourglass-empty fa-2x mt-4 mr-2 mb-4"></i>156 Min</span>
+                                                <p class="text-dark">
+                                                    A frontiersman on a fur trading expedition in the 1820s fights for survival after being mauled by a bear and left for dead by members of his own hunting team.
+                                                </p>
+
+                                                <div class="container  bg-dark">
+                                                    <div class="row ">
+                                                        <div class="col-6">
+
+                                                            <!-- movie 7 trailer modal -->
+
+                                                            <!-- Button to Open the Modal -->
+                                                            <button type="button" class="btn btn-outline-warning rounded-pill my-5 ml-2 pl-sm-1" data-toggle="modal" data-target="#myModaltrailer7"><i class="fa-solid fa-circle-play fa-2x "></i>Watch Trailer</button>
+
+
+                                                            <!-- The Modal -->
+                                                            <div class="modal fade" id="myModaltrailer7">
+                                                                <div class="modal-dialog modal-xl">
+                                                                    <div class="modal-content">
+
+                                                                        <!-- Modal Header -->
+                                                                        <div class="modal-header">
+                                                                            <h4 class="modal-title text-center ">The Revenant Trailer</h4>
+                                                                            <button type="button" class="close text-danger" data-dismiss="modal">&times;</button>
+                                                                        </div>
+
+                                                                        <!-- Modal body -->
+                                                                        <div class="modal-body">
+                                                                            <!-- 21:9 aspect ratio -->
+                                                                            <div class="embed-responsive embed-responsive-16by9">
+                                                                                <iframe class="embed-responsive-item" src="/Users/prajaychaudhary/Desktop/Film Festival /video/The Revenant | Official Trailer [HD] | 20th Century FOX.mp4"></iframe>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <!-- Modal footer -->
+                                                                        <div class="modal-footer">
+                                                                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+
+
+                                                        </div>
+                                                        <div class="col-6 font-weight-bold  title-underline text-center my-5">
+                                                            <p class="text-info mb-0">Show time</p>
+                                                            <p class="text-white ">August 7 at 6:30pm</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!--movie cast-->
+                                        <div class="row">
+                                            <div class="col">
+                                                <h3 class=" font-weight-bolder text-center">Movie Top Cast</h3>
+                                                <div class="title-underline-top-cast  bg-info "></div>
+                                            </div>
+                                        </div>
+                                        <div class="row m-4">
+                                            <div class="col-6 col-sm-6 col-lg-3 my-4">
+                                                <img class="h-100 w-100 rounded" src="/Users/prajaychaudhary/Desktop/Film Festival /images/cast/movie7/cast1.jpg.jpg" alt="Leonardo DiCaprio">
+                                                <p class=" font-weight-light text-center mb-3">
+                                                    Leonardo DiCaprio
+                                                </p>
+
+                                            </div>
+                                            <div class="col-6  col-sm-6 col-lg-3  my-4"><img class="h-100 w-100 rounded" src="/Users/prajaychaudhary/Desktop/Film Festival /images/cast/movie7/cast2.jpg" alt="Tom Hardy">
+                                                <p class=" font-weight-light text-center mb-3">
+                                                    Tom Hardy
+                                                </p>
+                                            </div>
+                                            <div class="col-6  col-sm-6 col-lg-3  my-4"><img class="h-100 w-100 rounded" src="/Users/prajaychaudhary/Desktop/Film Festival /images/cast/movie7/cast3.jpg" alt=" Will Poulter">
+                                                <p class=" font-weight-light text-center mb-3">
+                                                    Will Poulter
+                                                </p>
+                                            </div>
+                                            <div class="col-6  col-sm-6 col-lg-3  my-4"><img class="h-100 w-100 rounded" src="/Users/prajaychaudhary/Desktop/Film Festival /images/cast/movie7/cast4.jpg" alt=" Domhnall Gleeson">
+                                                <p class=" font-weight-light text-center mb-3">
+                                                    Domhnall Gleeson
+                                                </p>
+                                            </div>
+
+
+
+
+                                        </div>
+                                        <div class="row">
+                                            <div class="col text-center">
+                                                <a href="register.html" class="btn btn-outline-success text-center rounded-pill">Register here</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary bg-danger" data-dismiss="modal">Close</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+            <!-- movie 8 -->
+            <div class="col-6 col-md-4 col-lg-3 movies-con mx-auto">
+                <div class="card border-info shadow-sm mt-1 mb-4 change-sty">
+                    <img src="/Users/prajaychaudhary/Desktop/Film Festival /images/posters/Movie8.jpg " alt="Die Hard " class="card-img-top" />
+                    <div class="card-body bg-dark text-center">
+                        <!-- Button to Open the Modal -->
+                        <button type="button" class="btn btn-warning rounded-pill" data-toggle="modal" data-target="#myModal8">
+                                   See Details
+                                  </button>
+                    </div>
+
+                    <!-- The Modal for movie 8 -->
+
+                    <div class="modal fade" id="myModal8">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Film Details</h4>
+                                    <button type="button" class="close text-danger" data-dismiss="modal">&times;</button>
+                                </div>
+
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                    <div class="container">
+                                        <div class="row mb-5">
+                                            <div class="col-lg-4  mb-md-0 text-center">
+
+                                                <img class="h-75 w-75 rounded" src="/Users/prajaychaudhary/Desktop/Film Festival /images/moviedetails/movie8.png"> </div>
+                                            <div class="col m-0">
+                                                <h4 class="text-warning">Movie</h4>
+                                                <h1 class=" text-uppercase text-info ">Die Hard</h1>
+                                                <button class="font-weight-bold p-1 m-1  bg-secondary text-white" type="button">PG 16</button>
+                                                <button class="font-weight-bold p-1 m-1  bg-dark text-white" type="button">HD</button>
+                                                </h3> Adventure, Action<br>
+
+
+                                                <span><i class="fa-solid fa-calendar-days fa-2x mt-4 mr-2 mb-4"></i>1988</span>
+                                                <span><i class="fa-solid fa-hourglass-empty fa-2x mt-4 mr-2 mb-4"></i>132 Min</span>
+                                                <p class="text-dark">
+                                                    An NYPD officer tries to save his wife and several others taken hostage by German terrorists during a Christmas party at the Nakatomi Plaza in Los Angeles.
+
+                                                    <div class="container  bg-dark">
+                                                        <div class="row ">
+                                                            <div class="col-6">
+
+                                                                <!-- movie 8 trailer modal -->
+
+                                                                <!-- Button to Open the Modal -->
+                                                                <button type="button" class="btn btn-outline-warning rounded-pill my-5 ml-2 pl-sm-1" data-toggle="modal" data-target="#myModaltrailer8"><i class="fa-solid fa-circle-play fa-2x "></i>Watch Trailer</button>
+
+
+                                                                <!-- The Modal -->
+                                                                <div class="modal fade" id="myModaltrailer8">
+                                                                    <div class="modal-dialog modal-xl">
+                                                                        <div class="modal-content">
+
+                                                                            <!-- Modal Header -->
+                                                                            <div class="modal-header">
+                                                                                <h4 class="modal-title text-center ">Die Hard Trailer</h4>
+                                                                                <button type="button" class="close text-danger" data-dismiss="modal">&times;</button>
+                                                                            </div>
+
+                                                                            <!-- Modal body -->
+                                                                            <div class="modal-body">
+                                                                                <!-- 21:9 aspect ratio -->
+                                                                                <div class="embed-responsive embed-responsive-16by9">
+                                                                                    <iframe class="embed-responsive-item" src="/Users/prajaychaudhary/Desktop/Film Festival /video/Die Hard _ 30th Anniversary Trailer _ 20th Century FOX.mp4"></iframe>
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <!-- Modal footer -->
+                                                                            <div class="modal-footer">
+                                                                                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+
+
+                                                            </div>
+                                                            <div class="col-6 font-weight-bold  title-underline text-center my-5">
+                                                                <p class="text-info mb-0">Show time</p>
+                                                                <p class="text-white ">August 5 at 9:30pm</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                        </div>
+
+                                        <!--movie cast-->
+                                        <div class="row">
+                                            <div class="col">
+                                                <h3 class=" font-weight-bolder text-center">Movie Top Cast</h3>
+                                                <div class="title-underline-top-cast  bg-info "></div>
+                                            </div>
+                                        </div>
+                                        <div class="row m-4">
+                                            <div class="col-6 col-sm-6 col-lg-3 my-4">
+                                                <img class="h-100 w-100 rounded" src="/Users/prajaychaudhary/Desktop/Film Festival /images/cast/movie8/cast1.png" alt="Bruce Willis">
+                                                <p class=" font-weight-light text-center mb-3">
+                                                    Bruce Willis
+                                                </p>
+
+                                            </div>
+                                            <div class="col-6  col-sm-6 col-lg-3  my-4"><img class="h-100 w-100 rounded" src="/Users/prajaychaudhary/Desktop/Film Festival /images/cast/movie8/cast2.png" alt="Alan Rickman">
+                                                <p class=" font-weight-light text-center mb-3">
+                                                    Alan Rickman
+                                                </p>
+                                            </div>
+                                            <div class="col-6  col-sm-6 col-lg-3  my-4"><img class="h-100 w-100 rounded" src="/Users/prajaychaudhary/Desktop/Film Festival /images/cast/movie8/cast3.jpg" alt=" Bonnie Bedelia">
+                                                <p class=" font-weight-light text-center mb-3">
+                                                    Bonnie Bedelia
+                                                </p>
+                                            </div>
+                                            <div class="col-6  col-sm-6 col-lg-3  my-4"><img class="h-100 w-100 rounded" src="/Users/prajaychaudhary/Desktop/Film Festival /images/cast/movie8/cast4.png" alt=" Reginald VelJohnson">
+                                                <p class=" font-weight-light text-center mb-3">
+                                                    Reginald VelJohnson
+                                                </p>
+                                            </div>
+
+
+
+
+                                        </div>
+                                        <div class="row">
+                                            <div class="col text-center">
+                                                <a href="register.html" class="btn btn-outline-success text-center rounded-pill">Register here</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary bg-danger" data-dismiss="modal">Close</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---footer-->
+
+    <footer id="footer" class=" ">
+        <div class="container-fluid bg-dark py-3">
+            <div class="container mb-3">
+                <div class="row">
+                    <div class="col">
+                        <a href="index.html" class="logo">
+                            <img src="logo.png" alt="Filmlane logo " height="130" width="150" />
+                        </a>
+                    </div>
+                    <div class="col text-white  text-uppercase">
+
+                        <p><a href="index.html" class="text-white">Home</a></p>
+
+
+
+                        <p><a href="films.html" class="text-white">FILMS</a></p>
+
+
+
+                        <p><a href="faq.html" class="text-white">FAQ</a></p>
+
+
+
+
+
+
+                    </div>
+                    <div class="col text-white  text-uppercase">
+
+                        <p><a href="https://www.boston.gov/news" class="text-white">boston news</a></p>
+
+
+
+                        <p><a href="https://www.boston.gov/parks/public-garden" class="text-white">boston public garden</a></p>
+
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center text-uppercase text-warning">
+                    <p class="mb-0">follow us</p>
+                    <a href="https://facebook.com" class="btn">
+                        <i class="fab fa-facebook fa-2x text-primary m-2"></i></a>
+                    <a href="https://twitter.com" class="btn">
+                        <i class="fab fa-twitter fa-2x text-primary m-2"></i></a>
+                    </a>
+                    <a href="https://instagram.com" class="btn">
+                        <i class="fab fa-instagram fa-2x text-danger m-2"></i></a>
+                    </a>
+
+                </div>
+            </div>
+            <div class="container">
+                <p class="text-info">
+                    &copy; 2022 <a href="index.html" class="text-decoration-none">WatchItOutside</a>. All Rights Reserved
+                </p>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="style.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+</html>
